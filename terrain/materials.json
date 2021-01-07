@@ -1,0 +1,461 @@
+{
+	"platform": "pc",
+
+	"atlas":
+	{
+		"pc": 
+		{
+			"width": 2048,
+			"height": 2048,
+			"tileSize": 256,
+			"tileCount": 6,
+			"sliceSize": 512,
+			"borderSize": 42
+		},
+
+		"ios":
+		{
+			"width": 2048,
+			"height": 2048,
+			"tileSize": 256,
+			"tileCount": 6,
+			"borderSize": 42
+		},
+
+		"android": 
+		{
+			"width": 2048,
+			"height": 2048,
+			"tileSize": 256,
+			"tileCount": 6,
+			"borderSize": 42
+		},
+
+		"durango":
+		{
+			"width": 32,
+			"height": 32,
+			"tileSize": 4,
+			"tileCount": 6,
+			"sliceSize": 512,
+			"borderSize": 42
+		}
+	},
+
+	"materials":
+	[
+		{
+			"name": "Air"
+		},
+
+		{
+			"name":"Water",
+			"type": "hard",
+			"cubify": 1,
+			"water": 0.5
+		},
+
+		{
+			"name":"Grass",
+			"base_color": [106, 127, 63],
+			
+			"type": "hard",
+			"mapping": "cube",
+			"cubify":1,
+			
+			"texture_top":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_side":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_bottom":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name": "Slate",
+			"base_color": [63, 127, 107],
+			
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+
+			"texture":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Concrete",
+			"base_color": [127, 102, 63],
+
+			"type": "hard",
+			"mapping": "cube",
+			"cubify": 1,
+
+			"texture_top":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_side":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Brick",
+			"base_color": [138, 86, 62],
+
+			"type":"hard",
+			"mapping":"cube",
+			"cubify":1,
+
+			"texture":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Sand",
+			"base_color": [143, 126, 95],
+
+			"cubify":1,
+			"type":"hard",
+			"mapping":"cube",
+
+			"texture_top":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_side":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"WoodPlanks",
+			"base_color": [139, 109, 79],
+
+			"cubify":1,
+			"type":"hard",
+			"mapping":"cube",
+			
+			"texture":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Rock",
+			"base_color": [102, 108, 111],
+
+			"cubify":1,
+			"type":"hard",
+			"mapping":"cube",
+			
+			"texture":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Glacier",
+			"base_color": [101, 176, 234],
+		
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+
+			"texture_top":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_side":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_bottom":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Snow",
+			"base_color": [195, 199, 218],
+
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+
+			"texture":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Sandstone",
+			"base_color": [137, 90, 71],
+
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+
+			"texture_top":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_side":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_bottom":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Mud",
+			"base_color": [58, 46, 36],
+
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+
+			"texture":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Basalt",
+			"base_color": [30, 30, 37],
+
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+
+			"texture":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Ground",
+			"base_color": [102, 92, 59],
+			
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+
+			"texture":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"CrackedLava",
+			"base_color":[232, 156, 74],
+			
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+
+			"texture":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Asphalt",
+			"base_color": [115, 123, 107],
+			
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+			
+			"texture_top":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_side":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+		{
+			"name":"Cobblestone",
+			"base_color": [132, 123, 90],
+			
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+			
+			"texture_top":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_side":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Ice",
+			"base_color":[129, 194, 224],
+			
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+			
+			"texture_top":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_side":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+		{
+			"name":"LeafyGrass",
+			"base_color": [115, 132, 74],
+			
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+			
+			"texture_top":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_side":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Salt",
+			"base_color": [198, 189, 181],
+			
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+			
+			"texture_top":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_side":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Limestone",
+			"base_color": [206, 173, 148],
+			
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+			
+			"texture_top":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_side":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		},
+
+		{
+			"name":"Pavement",
+			"base_color":[148, 148, 140],
+			
+			"cubify": 1,
+			"type": "hard",
+			"mapping": "cube",
+
+			"texture_top":
+			{
+				"tiling":1,
+				"detiling":1
+			},
+
+			"texture_side":
+			{
+				"tiling":1,
+				"detiling":1
+			}
+		}
+	]
+}
