@@ -14,7 +14,7 @@ When you open a place with the modified terrain, the terrain likely won't be usi
 
 I primarily used Visual Studio 2019 to edit the textures. It has a built-in toolset for editing DDS images as well as auto-generating the necessary mipmaps for `diffuse_array.dds`. The colorspace of the original textures had to be converted from RGB to YCoCg, so I wrote a quick program in C# to do so.
 
-Roblox's conversion from RGB->YCoCg can be described as such C#:
+Roblox's conversion from RGB->YCoCg can be described as such in C#:
 
 ```cs
 private static Image to_YCoCg(Image image)
