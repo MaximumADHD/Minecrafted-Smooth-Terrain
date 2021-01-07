@@ -8,4 +8,4 @@ Copy the `terrain` and `textures` folders into the `PlatformContent\pc` folder i
 
 ## Bug Workaround
 
-When you open a place with the modified terrain, the terrain likely won't be using cubes immediately. This is a bug on Roblox's end, but you can work around it by applying any change to the `materials.json` file. Just put a space next to a comma, save the file, and that'll force Roblox to refresh and correctly pick up on the cubified' configuration!
+When you open a place with the modified terrain, the terrain likely won't be using cubes immediately. This is a bug on Roblox's end, but you can work around it by applying any change to the `materials.json` file. Just put a space next to a comma, save the file, and that'll force Roblox to refresh and correctly pick up on the cubified configuration!
