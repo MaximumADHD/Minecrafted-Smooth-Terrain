@@ -1,4 +1,4 @@
-# Minecraftified Smooth Terrain
+# Minecrafted Smooth Terrain
 
 This is a set of modified files which make Roblox's smooth terrain appear like the voxel terrain seen in Minecraft. The modification only works offline and won't appear if you publish a game with the terrain modified. It was just a fun experiment to see how flexible Roblox's terrain material configurations are.
 
